@@ -1,0 +1,31 @@
+#   직
+# def solution(dots):
+#     x1, y1 = dots[0]
+#     x2 = 0
+#     y2 = 0
+#     for x,y in dots:
+#         if x != x1 and y != y1:
+#             x2 = x
+#             y2 = y
+#     garo = abs(x2 - x1)
+#     sero = abs(y2 - y1)
+#     return garo * sero
+#
+# dots = [[1, 1], [2, 1], [2, 2], [1, 2]]
+# print(solution(dots))
+
+
+#겹치는 선분의 길이
+# def solution(lines):
+#     l = []
+#     count = 0
+#     for i in lines:
+#         for j in range(min(i),max(i)):
+#             if j not in l:
+#                 l.append(j)
+#             else:
+#                 l.remove(j)
+#                 count += 1
+#     return count
+# lines = [[0, 5], [3, 9], [1, 10]]
+# print(solution(lines))
